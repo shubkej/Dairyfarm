@@ -1,0 +1,63 @@
+.header{
+    height:34vw ;
+    margin: 30px auto;
+    background: url('../../assets/carousel-1.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 40px;
+}
+
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.vw;
+    max-width: 50%;
+    bottom: 30%;
+    left: 6vw;
+    animation: fadeIn 3.5s;
+}
+
+.header .heading{
+    font-size: 3.0vw;
+    color: wheat;
+}
+
+.header .para{
+    font-size: 2.0vw;
+    color: white;
+}
+
+.header .btn{
+    background-color: #f1ebeb;
+    padding: 15px 35px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 15px;
+    color: black;
+    font-weight: 500;
+}
+.header .btn:hover{
+    background-color: #638e4a;
+    color: white;
+}
+
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@media (max-width:750px) {
+        .header .btn{
+                padding: 10px 15px;
+                margin-top: 30px;
+}
+
+}
