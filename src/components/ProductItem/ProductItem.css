@@ -103,15 +103,19 @@
 @media (max-width:750px){
     .product-item {
     width: 68%;
-    margin:auto 65px;
+    margin:auto 60px;
 }
 
 .product-item-image-container .product-item-image {
-    width: 266px;
+    width: 242.5px;
 }
 
 .product-menu-text {
     max-width: 70%;
+}
+
+.productDisplay h2 {
+    margin-left: 35px;
 }
 
 }
