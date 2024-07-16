@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="footer-section contact">
           <h2>Contact Us</h2>
           <p>
-            Address: 123 Farm Road, Farmville, USA <br />
+            Address: Bihar , Bhagalpur ,813206 <br />
             Phone: +1 234 567 890 <br />
             Email: info@dairyfarm.com
           </p>
