@@ -1,5 +1,5 @@
 import basket_icon from './basket_icon.png'
-import logo from './logo1.png'
+import logo from './logo11.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 import menu_1 from './milk.jpg'

@@ -15,7 +15,7 @@ const Footer = () => {
           <h2>Contact Us</h2>
           <p>
             Address: Bihar , Bhagalpur ,813206 <br />
-            Phone: +1 234 567 890 <br />
+            Phone: +917470489417 <br />
             Email: info@dairyfarm.com
           </p>
         </div>

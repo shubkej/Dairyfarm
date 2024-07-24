@@ -5,6 +5,7 @@ import Home from './pages/Home/Home'
 import Cart from './pages/Cart/Cart'
 import Placeorder from './pages/Placeorder/Placeorder'
 import LoginPopUp from './components/LoginPopUp/LoginPopUp'
+import AllProducts from './pages/AllProducts/AllProducts'
  
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/cart' element={<Cart />} />
+          <Route path='/allProduct' element={<AllProducts />} />
           <Route path='/order' element={<Placeorder />} />
         </Routes>
       </div>
