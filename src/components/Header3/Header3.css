@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 20px;
 }
 .content-right{
     background-color: #efe2d1;
@@ -29,4 +30,6 @@
 
 .content-left img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

@@ -6,6 +6,9 @@ import Cart from './pages/Cart/Cart'
 import Placeorder from './pages/Placeorder/Placeorder'
 import LoginPopUp from './components/LoginPopUp/LoginPopUp'
 import AllProducts from './pages/AllProducts/AllProducts'
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
  
 
 const App = () => {
