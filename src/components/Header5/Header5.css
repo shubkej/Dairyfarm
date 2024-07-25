@@ -1,9 +1,10 @@
+ 
 .main-passion{
     display: flex;
     flex-direction: row;
     width:100% ;
     padding: 30px;
-    background-image: url('./bg-header5.jpg');
+    background-image: url('/bg-header5.jpg');
     margin-bottom: 20px;
 }
 .main-passion .heading-h1{
