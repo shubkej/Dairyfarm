@@ -1,0 +1,58 @@
+.main-passion{
+    display: flex;
+    flex-direction: row;
+    width:100% ;
+    padding: 30px;
+    background-image: url('./bg-header5.jpg');
+    margin-bottom: 20px;
+}
+.main-passion .heading-h1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.main-passion .heading-h1 p{
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-passion .card-parent{
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+
+.main-passion .card-parent .card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40%;
+    margin-bottom: 20px;
+    color: white;
+    background: transparent;
+}
+
+.main-passion .card-parent .card .icon img{  
+    
+}
+
+
+.main-passion h1{
+    font-size: 40px;
+    padding: 50px;
+}
+.main-passion h1 span{
+    font-weight: 300;
+}
+.main-passion .card{
+    border: none;
+    width: 30%; 
+}
