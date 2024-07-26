@@ -57,7 +57,6 @@
     height: 280px;
     width: 282px;
     object-fit: cover;
-     
 }
 
 .product-item-image-container .add {
@@ -76,13 +75,17 @@
     cursor: pointer;
     display: flex;
     align-items: center;
+    text-align: center;
     gap: 10px;
-    padding: 6px;
+    padding:1px 7px 1px 7px ;
     border-radius: 50px;
     color: white;
     background-color: rgb(40, 34, 34);
 }
 
+.food-item-counter p{
+    margin-top: 10px;
+}
 .food-item-counter img {
     width: 30px;
 }
