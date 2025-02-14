@@ -17,6 +17,7 @@ const Navbar = ({ SetshowLogin }) => {
         navigate("/");
 
     }
+    
     return (
         <div className='navbar'>
             <Link to={'/'} onClick={() => setmenu("home")}><img src={assets.logo} alt="" className='logo' /></Link>

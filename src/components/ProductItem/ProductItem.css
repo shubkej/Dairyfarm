@@ -46,6 +46,14 @@
     font-weight: 500;
     margin: 10px 0px;
 }
+.product-goto-bag{
+    padding:6px 10px;
+    background-color:tomato;
+    border-radius: 15px;
+    text-align: center;
+    color:black;
+    font-weight: 500;
+}
 
 .product-item-image-container {
     position: relative;
@@ -89,6 +97,7 @@
 .product-item-counter img {
     width: 30px;
 }
+.
 
 
 @media (max-width:1050px){

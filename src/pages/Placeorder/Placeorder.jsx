@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { StoreContext } from '../../context/StoreContext';
 import './Placeorder.css'
+import RazorpayPayment from '../../components/Rasorpay/RazorpayPayment';
 
 const Placeholder = () => {
 
@@ -33,7 +34,7 @@ const Placeholder = () => {
 
         </div>
 
-       
+
       </form>
       <div className="place-order-right">
         <div className="cart-total">
@@ -56,7 +57,10 @@ const Placeholder = () => {
               <p>${getTotalCartAmount() == 0 ? 0 : getTotalCartAmount() + 2}</p>
             </div>
 
-            <button>PROCEED TO PAYMENT</button>
+            {/* <button>PROCEED TO PAYMENT</button>
+           */}
+
+            <RazorpayPayment />
 
           </div>
         </div>

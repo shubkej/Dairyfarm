@@ -17,6 +17,7 @@
 .main-passion .heading-h1 p{
     width: 70%;
     padding: 10px;
+    color: aliceblue;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

@@ -30,3 +30,16 @@
 .content-left img{
     width: 100%;
 }
+
+/* @media(max-width:750px){
+        .header2{
+            flex-direction: column;
+            width:50%;
+        }
+
+.content-right{
+    width: 100%;
+}
+.content-left{
+    width: 10%;
+} */

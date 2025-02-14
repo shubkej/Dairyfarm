@@ -1,16 +1,19 @@
 import React, { useContext } from 'react'
 import './ProductItem.css'
+import { Link} from 'react-router-dom'
+
 import { assets } from '../../assets/assets'
+
 import { StoreContext } from '../../context/StoreContext';
 
 const ProductItem = ({id,name,price,description,image}) => {
 
-    const { cartItems, addTocart, removeCartItems } = useContext(StoreContext);
+    const { cartItems, addTocart, removeCartItems,url } = useContext(StoreContext);
 
     return (
         <div className='product-item'>
             <div className="product-item-image-container">
-                <img className='product-item-image' src={image} alt="" />
+                <img className='product-item-image' src={url+"/images/"+image} alt="" />
                 {!cartItems[id] ?
                     <img className='add' src={assets.add_icon_white} onClick={() =>addTocart(id)} alt="" />
                     : <div className='product-item-counter'>
@@ -27,7 +30,8 @@ const ProductItem = ({id,name,price,description,image}) => {
                     <img src={assets.rating_starts} alt="" />
                 </div>
                 <p className="product-item-desc">{ description}</p>
-                <p className="product-item-price">₹{ price}</p>
+                <p className="product-item-price">₹{price}</p>
+                <Link to={'/cart'}  className='product-goto-bag'>Go to bag</Link>
             </div>
             
         </div>
